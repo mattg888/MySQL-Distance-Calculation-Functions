@@ -19,8 +19,18 @@ MySQL-distance-functions
 A MySQL function to find the distance in KM or Miles between two latitudes and longitudes
 
 Example usage:
+--------------
 ```sql
 SELECT 
-	GeoDistDiff('kilometers', 50.459634, -3.526109, 50.459408, -3.524457) as distance,
-	GeoDistDiff('miles', 50.459634, -3.526109, 50.459408, -3.524457) as distance;
+	GeoDistDiff('km', 50.459634, -3.526109, 50.459408, -3.524457) as distance_km,
+	GeoDistDiff('mi', 50.459634, -3.526109, 50.459408, -3.524457) as distance_mi;
 ```
+
+Example output:
+---------------
++---------------------+---------------------+
+| distance_km         | distance_mi         |
++---------------------+---------------------+
+| 0.11959195137023926 | 0.07431557774543762 |
++---------------------+---------------------+
+1 row in set (0.00 sec)
