@@ -7,5 +7,5 @@ BEGIN
 END;
 |
 
-DELIMITER;
+DELIMITER ;
 
