@@ -1,7 +1,7 @@
 MySQL-distance-functions
 ==========================
 
-A MySQL function to find the distance in KM or Miles between two latitude and longitude
+A MySQL function to find the distance in KM or Miles between two latitudes and longitudes
 
 Example usage:
 ```sql
